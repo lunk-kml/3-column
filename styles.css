@@ -1,0 +1,208 @@
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: hsl(0, 0%, 95%);
+}
+
+.card {
+  margin: 7.8125rem auto;
+  width: 20.3125rem;
+  height: 83.75rem;
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  background-color: hsl(0, 0%, 95%);
+  width: 8.9rem;
+  height: 3.125rem;
+  border: none;
+  border-radius: 5rem;
+  font-weight: 550;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+/* Sedans */
+.sedans {
+  background-color: hsl(31, 77%, 52%);
+  border-radius: 0.9375rem 0.9375rem 0 0;
+}
+
+.sedans img {
+  margin: 3rem 0 1rem 3.5rem;
+}
+
+.sedans h1 {
+  margin: 1rem 0 0 3.5rem;
+  color: hsl(0, 0%, 95%);
+  text-transform: uppercase;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 700;
+  font-stretch: ultra-condensed;
+  font-size: 33px;
+}
+
+.sedans p {
+  margin: 2rem 3.5rem 1.5rem 3.5rem;
+  font-size: 16.1px;
+  font-family: "Big Shoulders Display", sans-serif;
+  line-height: 25px;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.sedans .learn {
+  margin: 1rem 0 3rem 3.5rem;
+}
+
+.sedans button {
+  color: hsl(31, 77%, 52%);
+}
+
+.sedans button:hover {
+  background-color: hsl(31, 77%, 52%);
+  color: white;
+  border: 2px solid white;
+}
+
+/* SUVs*/
+.suvs {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.suvs img {
+  margin: 3rem 0 1rem 3.5rem;
+}
+
+.suvs h1 {
+  margin: 1rem 0 0 3.5rem;
+  color: hsl(0, 0%, 95%);
+  text-transform: uppercase;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 700;
+  font-stretch: ultra-condensed;
+  font-size: 33px;
+}
+
+.suvs p {
+  margin: 2rem 3.5rem 1.5rem 3.5rem;
+  font-size: 16.1px;
+  font-family: "Big Shoulders Display", sans-serif;
+  line-height: 25px;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.suvs .learn {
+  margin: 1rem 0 3rem 3.5rem;
+}
+
+.suvs button {
+  color: hsl(184, 100%, 22%);
+}
+
+.suvs button:hover {
+  background-color: hsl(184, 100%, 22%);
+  color: white;
+  border: 2px solid white;
+}
+
+/* Luxury */
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 0 0 15px 15px;
+}
+
+.luxury img {
+  margin: 3rem 0 1rem 3.5rem;
+}
+
+.luxury h1 {
+  margin: 1rem 0 0 3.5rem;
+  color: hsl(0, 0%, 95%);
+  text-transform: uppercase;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 700;
+  font-stretch: ultra-condensed;
+  font-size: 33px;
+}
+
+.luxury p {
+  margin: 2rem 3.5rem 1.5rem 3.5rem;
+  font-size: 16.1px;
+  font-family: "Big Shoulders Display", sans-serif;
+  line-height: 25px;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.luxury .learn {
+  margin: 1rem 0 3rem 3.5rem;
+}
+
+.luxury button {
+  color: hsl(179, 100%, 13%);
+}
+
+.luxury button:hover {
+  background-color: hsl(179, 100%, 13%);
+  color: white;
+  border: 2px solid white;
+}
+
+/* Desktop Version */
+@media (min-width: 950px) {
+  .card {
+    margin: 15.8rem auto;
+    width: 62.5rem;
+    height: 32.1875rem;
+    display: flex;
+    flex-direction: row;
+  }
+  /*P Elements*/
+  .sedans p {
+    margin-bottom: 70px;
+    margin-right: 70px;
+  }
+  .suvs p {
+    margin-bottom: 70px;
+    margin-right: 80px;
+  }
+  .luxury p {
+    margin-bottom: 70px;
+    margin-right: 70px;
+  }
+  /*Buttons*/
+  .sedans .learn {
+    margin: 5.5rem 0 3rem 3.5rem;
+  }
+  .suvs .learn {
+    margin: 5.5rem 0 3rem 3.5rem;
+  }
+  .luxury .learn {
+    margin: 5.5rem 0 3rem 3.5rem;
+  }
+  /* Border-Radius*/
+  .sedans {
+    border-radius: 15px 0 0 15px;
+  }
+  .luxury {
+    border-radius: 0 15px 15px 0;
+  }
+}
+
+/* Footer */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: darkgray;
+  font-style: italic;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.attribution a:hover {
+  text-decoration: none;
+}
